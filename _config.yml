@@ -1,0 +1,25 @@
+title:              Edward Mundia
+email:              eddumundia@gmail.com
+description:        Scripting on everything anything
+author:             "eddumundia"
+baseurl:            ""
+url:                ""
+
+# Social Profiles
+twitter_username:   eddumundia
+github_username:    eddumundia
+facebook_username:  eddumundia
+instagram_username: eddumundia
+linkedin_username:  eddumundia
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
