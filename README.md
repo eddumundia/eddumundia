@@ -1,7 +1,5 @@
 <h3>Hey, I'm <a href="http://eddumundia.com/">Edward Mundia</a></h3>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
-
 <p>Am an experienced Senior Software Engineer with a demonstrated history of working in the research industry. Currently working as senior software developer at <a href="https://kemri-wellcome.org/" target="_blank" class="btn-link" >KEMRI WELLCOME TRUST</a>. I have managed to work with different companies as software developer in different capacities which include;
 	<a href="https://www.aimgroup.co.tz/" target="_blank" class="btn-link">AIM Group Tanzania,</a>
 	<a href="https://web.facebook.com/iran.medical.clinic.kenya/"  target="_blank" class="btn-link">Iran Medical Clinic,</a>
@@ -17,6 +15,12 @@
         <li>😄 Pronouns: he/him</li>
         <li>⚡ Fun fact: Lets talk about bikes and cars(Subaru)</li>
   </ul>
+
+[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
+
   <h3>Languages and tools</h3>
   		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
@@ -30,14 +34,10 @@
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
-<div class="row">
-	<div class="col col-6">
-		[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
-	</div>
-	<div class="col col-6">
-		[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
-	</div>
-</div>
+
+
+
+
 
 
 
