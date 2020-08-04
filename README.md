@@ -18,9 +18,6 @@
 
 [![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
-
   <h3>Languages and tools</h3>
   		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
@@ -38,8 +35,7 @@
 
 
 
-
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
 
 
 <h3>Social media</h3>
