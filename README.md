@@ -37,6 +37,12 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
 
+<p align = "center">
+  <img src = "https://github-readme-stats.vercel.app/api?username=eddumundia&show_icons=true&theme=radical&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia&hide=css,html&theme=tokyonight">
+</p>
+
+
 
 <h3>Social media</h3>
 <a href="https://twitter.com/eddumundia">
