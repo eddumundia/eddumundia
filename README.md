@@ -16,7 +16,6 @@
         <li>⚡ Fun fact: Lets talk about bikes and cars(Subaru)</li>
   </ul>
 
-[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=merko)
 
   <h3>Languages and tools</h3>
   		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
@@ -33,13 +32,9 @@
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
 
 
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
-
 <p align = "center">
-  <img src = "https://github-readme-stats.vercel.app/api?username=eddumundia&show_icons=true&theme=radical&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia&hide=css,html&theme=tokyonight">
+  <img src = "https://github-readme-stats.vercel.app/api?username=eddumundia&show_icons=true&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia&theme=tokyonight">
 </p>
 
 
