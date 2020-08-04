@@ -30,9 +30,16 @@
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
+<div class="row">
+	<div class="col col-6">
+		[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
+	</div>
+	<div class="col col-6">
+		[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
+	</div>
+</div>
 
 
-[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
 
 
 <h3>Social media</h3>
