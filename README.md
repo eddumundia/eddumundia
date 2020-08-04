@@ -1,6 +1,6 @@
 <h3>Hey, I'm <a href="http://eddumundia.com/">Edward Mundia</a></h3>
 
-[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eddumundia)](https://github.com/eddumundia/github-readme-stats)
 
 <p>Am an experienced Senior Software Engineer with a demonstrated history of working in the research industry. Currently working as senior software developer at <a href="https://kemri-wellcome.org/" target="_blank" class="btn-link" >KEMRI WELLCOME TRUST</a>. I have managed to work with different companies as software developer in different capacities which include;
 	<a href="https://www.aimgroup.co.tz/" target="_blank" class="btn-link">AIM Group Tanzania,</a>
@@ -30,6 +30,11 @@
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 		<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
+
+
+[![Edward's github stats](https://github-readme-stats.vercel.app/api?username=eddumundia)](https://github.com/eddumundia/github-readme-stats&show_icons=true&theme=dark)
+
+
 <h3>Social media</h3>
 <a href="https://twitter.com/eddumundia">
   <img align="left" alt="Edward Mundia | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
