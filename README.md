@@ -4,7 +4,7 @@
 
 <h3>Connect with me</h3>
 
-[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/eddumundia) [<img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />](https://medium.com/@eddumundia)  [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/edward-mundia-47133b3b/) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/eddumundia/) [<img src = "https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/eddumundia) [<img src ="https://img.shields.io/badge/portfolio-web-%23.svg?&style=for-the-badge&logo=&logoColor=white%22">](https://eddumundia.com/) ![Visits Badge](https://badges.pufler.dev/visits/pr2tik1/pr2tik1?style=for-the-badge ) 
+[<img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/eddumundia)  [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/edward-mundia-47133b3b/) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/eddumundia/) [<img src = "https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/eddumundia) ![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges?style=for-the-badge ) 
 
 <p>Am an experienced Senior Software Engineer with a demonstrated history of working in the research industry. Currently working as senior software developer at <a href="https://kemri-wellcome.org/" target="_blank" class="btn-link" >KEMRI WELLCOME TRUST</a>. I have managed to work with different companies as software developer in different capacities which include;
 	<a href="https://www.aimgroup.co.tz/" target="_blank" class="btn-link">AIM Group Tanzania,</a>
@@ -46,15 +46,3 @@
 
 
 
-<a href="https://twitter.com/eddumundia">
-  <img align="left" alt="Edward Mundia | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
-<a href="https://www.linkedin.com/in/edward-mundia-47133b3b/">
-  <img align="left" alt="Edward Mundia's LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
-<a href="https://www.instagram.com/eddumundia/">
-  <img align="left" alt="Edward Mundia's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-</a>
-<a href="https://facebook.com/Eddumundia">
-  <img align="left" alt="Edward Mundia" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3/icons/facebook.svg" />
-</a>
