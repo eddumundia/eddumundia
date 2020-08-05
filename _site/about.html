@@ -73,7 +73,7 @@
           <div class="page-heading">
             <h1>About Me</h1>
             
-            <span class="subheading">This is my background and what I do.</span>
+            <span class="subheading textAnimated">This is my background and what I do.</span>
             
           </div>
         </div>
@@ -94,7 +94,7 @@
   <ul>
         <li>🔭 I’m currently working on my health and making customers happy</li>
         <li>🌱 I’m currently learning Machine learning, AI, GraphSQL, R and Stata</li>
-        <li>👯 I’m currently a student at Google Africa Android developer scholarship (GAADS)</li>
+        <li>👯 I have part time classes sponsored by Google Africa Android developer scholarship (GAADS)</li>
         <li>👯 I’m setting up and expanding photography and videography</li>
         <li>📫 How to reach me: info at eddumundia dot com</li>
         <li>😄 Pronouns: he/him</li>
@@ -106,8 +106,8 @@
     <li><a href="https://deveint.com/" target="_blank" class="btn-link">Deveint</a></li>
     <li><a href="http://gilmakenya.com/" target="_blank" class="btn-link">Gilmakenya</a></li>
     <li><a href="https://prittevents.co.ke/" target="_blank" class="btn-link">Prittevents</a></li>
-    <li><a href="https://masomotrivia.com/" target="_blank" class="btn-link">Masomo Trivia</a></li>
-    <li><a href="http://www.themuvidb.com/" targe="_blank" class="btn-link">The Muvi DB</a></li>
+    <li><a href="http://mtrivia.eddumundia.com/index.php/site" target="_blank" class="btn-link">Masomo Trivia</a></li>
+    <li><a href="http://muvidb.eddumundia.com/public/" targe="_blank" class="btn-link">The Muvi DB</a></li>
 </ul>        
 Detailed description of each company can be found on the blog section or through their website
 </p>
@@ -135,7 +135,24 @@ Detailed description of each company can be found on the blog section or through
     <button class="btn btn-outline-info">R</button>
     <button class="btn btn-outline-info">Yii 2</button>
     <button class="btn btn-outline-info"><i class="fab fa-laravel"></i> Laravel</button>
-
+<p>
+    <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
+        <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+</p>
+<p>
+    
+</p>
 <p class="mb-5">
 	<button class="btn btn-link">Download my resume</button>
 </p>
@@ -147,6 +164,81 @@ Detailed description of each company can be found on the blog section or through
     </div>
   </div>
 
+
+<script type="text/javascript">
+
+var textAnimated = document.querySelector(".textAnimated")
+
+var text = ""
+
+var textArr = [
+  "I'm a senior software developer.",
+  "I do things, all the shenanigans",
+  "Have questions? I have answers.Lets create something BIG",
+  "Contact me for collaboration",
+]
+
+var currentTextIndex = -1
+
+var letterIndex = -1
+
+function addLetter(){
+  // increment letterIndex to get to the next letter
+  letterIndex++
+  //
+  if(letterIndex < text.length) {
+    //ADD A DELAY
+    setTimeout( function() {
+      // add letter
+      textAnimated.textContent += text[letterIndex]
+      // call itself 
+      addLetter()
+    }, 100)
+  }else {
+    // call removeLetter after a delay 
+    setTimeout( function() {
+    removeLetter()
+    }, 2000)
+  }
+}
+
+function removeLetter(){
+  // decrement letterIndex to get to the next letter
+  letterIndex--
+  //
+  if(letterIndex >= 0) {
+    //ADD A DELAY
+    setTimeout( function() {
+      // remove letter
+      textAnimated.textContent = text.slice(0, letterIndex)
+      // call itself 
+      removeLetter()
+    }, 100)
+  }else {
+    // no more letters to remove
+    // doesn't call addLetter anymore
+    // call updateText instead
+    updateText()
+  }
+}
+
+function updateText() {
+    //increment currentTextIndex to switch to the next sentence
+    currentTextIndex++
+
+    //go to the first string index when currentTextIndex has reached the last one
+  if(currentTextIndex === textArr.length) {
+    currentTextIndex = 0
+  }
+    //update text 
+    text = textArr[currentTextIndex]
+    //call addLetter and get the animation going
+    addLetter()
+}
+
+//the initial call to start everything
+updateText()
+</script>
 
   <!-- Footer -->
 

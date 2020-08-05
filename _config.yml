@@ -3,6 +3,7 @@ email:              eddumundia@gmail.com
 description:        Scripting on everything anything
 author:             "eddumundia"
 baseurl:            "/"
+#url:                "https://eddumundia.com"
 url:                "https://eddumundia.github.io/eddumundia/"
 
 # Social Profiles
@@ -23,4 +24,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 

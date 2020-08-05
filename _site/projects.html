@@ -62,7 +62,8 @@
 </nav>
 
 
-  
+  <!-- Page Header -->
+
 <header class="masthead" style="background-image: url('/img/bg-about.jpg')">
   
     <div class="overlay"></div>
@@ -70,9 +71,9 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Edward Mundia</h1>
+            <h1>Current projects</h1>
             
-            <span class="subheading">Scripting on everything anything</span>
+            <span class="subheading textAnimated">Hands on.</span>
             
           </div>
         </div>
@@ -84,21 +85,215 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        
+        <!-- Home Post List -->
 
-          
 
-       
+<article class="post-preview">
+  <a href="/projects/blogging/">
+    <h2 class="post-title">Blogging</h2>
+    
+    <h3 class="post-subtitle">My team and i will be writing stuff that ranges from technical, non technical, travevelling and current affairs</h3>
+    
+  </a>
+  <p class="post-meta">Posted by
+    
+    eddumundia
+    
+    on
+    January 27, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+            
+  </p>
+</article>
 
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="/posts">View All Posts &rarr;</a>
-        </div>
+<hr>
+
+
+
+<article class="post-preview">
+  <a href="/projects/mtrvia/">
+    <h2 class="post-title">Masomo Trivia</h2>
+    
+    <h3 class="post-subtitle">An awesome application for students to revise past papaers during this lockdown period</h3>
+    
+  </a>
+  <p class="post-meta">Posted by
+    
+    eddumundia
+    
+    on
+    January 27, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+            
+  </p>
+</article>
+
+<hr>
+
+
+
+<article class="post-preview">
+  <a href="/projects/muvidb/">
+    <h2 class="post-title">The Muvi DB</h2>
+    
+    <h3 class="post-subtitle">I have developed a catalogue movies, tv series and actors</h3>
+    
+  </a>
+  <p class="post-meta">Posted by
+    
+    eddumundia
+    
+    on
+    January 27, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+            
+  </p>
+</article>
+
+<hr>
+
+
+
+<article class="post-preview">
+  <a href="/projects/photography/">
+    <h2 class="post-title">Photography</h2>
+    
+    <h3 class="post-subtitle">1000 words in a photo, lets tackle it</h3>
+    
+  </a>
+  <p class="post-meta">Posted by
+    
+    eddumundia
+    
+    on
+    January 27, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+            
+  </p>
+</article>
+
+<hr>
+
+
+
+<article class="post-preview">
+  <a href="/projects/videography/">
+    <h2 class="post-title">Videography</h2>
+    
+    <h3 class="post-subtitle">We have videos of places, events that we have documented, to be shared on youtube soon</h3>
+    
+  </a>
+  <p class="post-meta">Posted by
+    
+    eddumundia
+    
+    on
+    January 27, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+            
+  </p>
+</article>
+
+<hr>
+
+
+
+<!-- Pager -->
+<div class="clearfix">
+  <a class="btn btn-primary float-right" href="/projects">View All Posts &rarr;</a>
+</div>
+
+
+
+     
+
+
+
 
       </div>
     </div>
   </div>
 
+
+<script type="text/javascript">
+
+var textAnimated = document.querySelector(".textAnimated")
+
+var text = ""
+
+var textArr = [
+  "I'm a senior software developer.",
+  "I do things, all the shenanigans",
+  "Have questions? I have answers.Lets create something BIG",
+  "Contact me for collaboration",
+]
+
+var currentTextIndex = -1
+
+var letterIndex = -1
+
+function addLetter(){
+  // increment letterIndex to get to the next letter
+  letterIndex++
+  //
+  if(letterIndex < text.length) {
+    //ADD A DELAY
+    setTimeout( function() {
+      // add letter
+      textAnimated.textContent += text[letterIndex]
+      // call itself 
+      addLetter()
+    }, 100)
+  }else {
+    // call removeLetter after a delay 
+    setTimeout( function() {
+    removeLetter()
+    }, 2000)
+  }
+}
+
+function removeLetter(){
+  // decrement letterIndex to get to the next letter
+  letterIndex--
+  //
+  if(letterIndex >= 0) {
+    //ADD A DELAY
+    setTimeout( function() {
+      // remove letter
+      textAnimated.textContent = text.slice(0, letterIndex)
+      // call itself 
+      removeLetter()
+    }, 100)
+  }else {
+    // no more letters to remove
+    // doesn't call addLetter anymore
+    // call updateText instead
+    updateText()
+  }
+}
+
+function updateText() {
+    //increment currentTextIndex to switch to the next sentence
+    currentTextIndex++
+
+    //go to the first string index when currentTextIndex has reached the last one
+  if(currentTextIndex === textArr.length) {
+    currentTextIndex = 0
+  }
+    //update text 
+    text = textArr[currentTextIndex]
+    //call addLetter and get the animation going
+    addLetter()
+}
+
+//the initial call to start everything
+updateText()
+</script>
 
   <!-- Footer -->
 
