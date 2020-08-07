@@ -13,7 +13,7 @@ instagram_username: eddumundia
 linkedin_username:  eddumundia
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-32244458-1 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
@@ -27,5 +27,5 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:name/
 
